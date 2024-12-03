@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: pixel;
+    src: url(fonte/dogicapixelbold.ttf);
+}
+
+@font-face {
+    font-family: tommy;
+    src: url(fonte/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf);
+}
+
+:root{
+    --azul:#4d56fa;
+    --amarelo: #ffea31;
+    --laranja: #d5912b;
+    --ciano: #45ffad;
+    --azul_escuro: #1c1e4e;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--azul_escuro);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--azul);
+}
+
+header img{
+    width: 30vw;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+main{
+    text-align: center;
+    min-width: 320;
+    max-width: 800;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#amarelo{
+    color: var(--amarelo);
+    font-family: 'pixel';
+    margin: 50px;
+    font-size: 5vw;
+    line-height: 1.5em;
+}
+
+#laranja{
+    color: var(--laranja);
+    font-family: 'tommy';
+    font-size: 5vw;
+}
+
+div{
+    background-color: var(--azul);
+}
+
+#servicos h1{
+    font-family: 'pixel';
+    color: var(--amarelo);
+    margin: 50px;
+    font-size: 5vw;
+}
+
+#servicos h2{
+    font-family: 'pixel';
+    color: var(--ciano);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 4vw;
+}
+
+#servicos p{
+    font-family: 'tommy';
+    color: white;
+    font-size: 3vw;
+}
+
+img{
+    width: 70%;
+    max-width: 700px;
+    margin: 25;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
