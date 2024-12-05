@@ -33,10 +33,13 @@ header{
     background-color: var(--azul);
 }
 
-header img{
-    width: 30vw;
-    min-width: 200px;
-    max-width: 300px;
+#whatsapp{
+    position: fixed;
+    margin-left: 90%;
+}
+
+#whatsapp img{
+    max-width: 70px;
 }
 
 main{
@@ -45,34 +48,42 @@ main{
     max-width: 800;
     margin: auto;
     margin-bottom: 50px;
+    position: relative;
 }
 
 #amarelo{
     color: var(--amarelo);
     font-family: 'pixel';
-    margin: 50px;
-    font-size: 5vw;
+    margin: 25px;
+    margin-bottom:2px;
+    font-size: 4vw;
     line-height: 1.5em;
 }
 
 #laranja{
     color: var(--laranja);
     font-family: 'tommy';
-    font-size: 5vw;
+    font-size: 4vw;
+}
+
+header img{
+    width: 30vw;
+    min-width: 200px;
+    max-width: 300px;
 }
 
 div{
     background-color: var(--azul);
 }
 
-#servicos h1{
+.corpo h1{
     font-family: 'pixel';
     color: var(--amarelo);
     margin: 50px;
     font-size: 5vw;
 }
 
-#servicos h2{
+.corpo h2{
     font-family: 'pixel';
     color: var(--ciano);
     margin-top: 50px;
@@ -80,10 +91,21 @@ div{
     font-size: 4vw;
 }
 
-#servicos p{
+.corpo p{
     font-family: 'tommy';
     color: white;
     font-size: 3vw;
+}
+
+.corpo a{
+    color: var(--laranja);
+    text-decoration: none;
+}
+
+.corpo a:hover{
+    background-color: var(--azul);
+    color: var(--laranja);
+    text-decoration: underline;
 }
 
 img{
